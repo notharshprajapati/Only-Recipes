@@ -25,6 +25,7 @@ const Recipe = () => {
     return () => {
       isMounted = false;
     };
+    // eslint-disable-next-line
   }, [params.id]);
 
   return (
